@@ -51,7 +51,7 @@ while (x, y) != (3, 1):
             x = 1
             y = 2
         else:
-            print("Invalid direction!")
+            print("Not a valid direction!")
 
     elif (x, y) == (1, 2):
         validpos = ("nes")
@@ -67,7 +67,7 @@ while (x, y) != (3, 1):
             x = 1
             y = 1
         else:
-            print("Invalid direction!")
+            print("Not a valid direction!")
 
     elif (x, y) == (1, 3):
         validpos = "se"
@@ -80,7 +80,7 @@ while (x, y) != (3, 1):
             x = 2
             y = 3
         else:
-            print("Invalid direction!")
+            print("Not a valid direction!")
 
     elif (x, y) == (2, 1):
         validpos = "n"
@@ -90,7 +90,7 @@ while (x, y) != (3, 1):
             x = 2
             y = 2
         else:
-            print("Invalid direction!")
+            print("Not a valid direction!")
 
     elif (x, y) == (2, 2):
         validpos = "sw"
@@ -103,7 +103,7 @@ while (x, y) != (3, 1):
             x = 1
             y = 2
         else:
-            print("Invalid direction!")
+            print("Not a valid direction!")
 
     elif (x, y) == (2, 3):
         validpos = "ew"
@@ -116,7 +116,7 @@ while (x, y) != (3, 1):
             x = 1
             y = 3
         else:
-            print("Invalid direction!")
+            print("Not a valid direction!")
 
     elif (x, y) == (3, 3):
         validpos = "sw"
@@ -129,7 +129,7 @@ while (x, y) != (3, 1):
             x = 2
             y = 3
         else:
-            print("Invalid direction!")
+            print("Not a valid direction!")
 
     elif (x, y) == (3, 2):
         validpos = "ns"
@@ -142,6 +142,6 @@ while (x, y) != (3, 1):
             x = 3
             y = 1
         else:
-            print("Invalid direction!")
+            print("Not a valid direction!")
     
 victory(x, y)
